@@ -89,3 +89,9 @@
     object-fit: cover;
     border-radius: 20%;
 }
+
+@media (max-width:768px) {
+    .info{
+        opacity: 1;
+    }
+}
