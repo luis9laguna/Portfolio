@@ -13,7 +13,7 @@ import react from '../../public/img/png/react.png'
 const About = () => {
     return (
         <div id="about" className={styles.aboutContainer}>
-            <div className={styles.aboutLeft} data-aos="fade-right" data-aos-duration="1000">
+            <div className={styles.aboutLeft} data-aos="fade-right" data-aos-duration="1500">
                 <div className={styles.cardBack}/>
                 <div className={styles.card}>
                     <img
@@ -23,7 +23,7 @@ const About = () => {
                     />
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" className={styles.aboutRight}>
+            <div data-aos="fade-left" data-aos-duration="1500" className={styles.aboutRight}>
                 <h1 >About Me</h1>
                 <p className={styles.aboutTop}>
                     Hi, I’m Luis Laguna, a Software Developer who loves technologies

@@ -5,7 +5,7 @@ import Form from "./Form";
 const Contact = () => {
 
   return (
-    <div data-aos="fade-up" data-aos-duration="1000" className={styles.containerContact} id='contact' >
+    <div data-aos="fade-up" data-aos-duration="1500" className={styles.containerContact} id='contact' >
       <h2>Get in Touch!</h2>
       <p>I'm currently looking for new opportunities, my inbox is always open, so if you want lo let some question or just say hi, I'll do my best to get back to you as soon as possible!</p>
       <div className={styles.subContainer}>
