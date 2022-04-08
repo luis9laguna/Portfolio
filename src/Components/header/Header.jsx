@@ -6,7 +6,6 @@ export default function Header() {
 
     //USESTATE FOR NAVBAR
     const [isOpen, setIsOpen] = useState(false);
-    console.log(isOpen)
 
     return (
         <div className={styles.container} id="header">
