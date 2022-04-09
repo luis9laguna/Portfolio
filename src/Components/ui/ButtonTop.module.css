@@ -8,14 +8,20 @@
   color: #86dc3d;
 }
 .buttonTop:hover > svg {
-  transform: translateY(-15px);
+  animation: move 1s infinite;
 }
 
 .buttonTop svg {
   display: flex;
   align-items: center;
   font-size: 30px;
-  transition: all 0.3s ease-in-out;
+}
+
+@keyframes move{
+  0% { transform: translateY(0px); }
+  50% {transform: translateY(-15px);}
+  100% {transform: translateY(0px);}
+
 }
 
 @media (max-width: 768px){
