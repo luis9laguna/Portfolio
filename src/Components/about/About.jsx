@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import image from "../../public/img/about.jpeg"
+import image from "../../public/img/about.png"
 import angular from '../../public/img/png/angular.png'
 import css from '../../public/img/png/css3.png'
 import git from '../../public/img/png/git.png'
