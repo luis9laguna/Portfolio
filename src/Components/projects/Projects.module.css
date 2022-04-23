@@ -17,10 +17,9 @@
 }
 
 .projects > div{
-    flex: 1 0 21%;
     border-radius: 20%;
     position: relative;
-    width: 280px;
+    width: 350px;
     min-width: 280px;
     height: 280px;
     margin: 2rem;
